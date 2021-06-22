@@ -10,7 +10,6 @@ function Expense(props) {
   const filterByYear = (selectedYear) => {
     setUpdatedYear(selectedYear)
   }
-
   return (
     <div> 
     <Card className="expenses">
